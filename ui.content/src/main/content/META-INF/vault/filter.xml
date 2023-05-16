@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/cucumber-selenium" mode="merge"/>
+    <filter root="/content/cucumber-selenium" mode="merge"/>
+    <filter root="/content/dam/cucumber-selenium" mode="merge">
+        <exclude pattern="/content/dam/cucumber-selenium(/.*)?"/>
+        <include pattern="/content/dam/cucumber-selenium/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/cucumber-selenium/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/cucumber-selenium" mode="merge"/>
+</workspaceFilter>
